@@ -5,22 +5,27 @@
     <meta name="author" content="Spencer Marking">
     <meta name="keywords" content="CSE110 project,meeting minutes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSE110 Project Brainstrorming</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>CSE110 Project Brainstrormingggggg</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
   </head>
   <body>
     <header>
       <nav> 
-        <a href="#agenda">agenda</a>
+        <a title="agenda" href="#agenda">agenda</a>
       </nav>
       <h1>Project Approach Brainstorming</h1>
       <h2>Chosing leaders, technology, schedules and responsibilities</h2>
       <h3>Thursday Oct. 6 2022</h3>
       <h4> Attendance List</h4>
-      <ul> 
+      <ul class="ems"> 
         <li> Spencer</li>
         <li>Jessica</li>
         <li> Anesh </li>
+          <ul class=""> 
+            <li> positive attitude</li>
+            <li> kind disposition</li>
+          </ul>
       </ul>
       <h4 id="agenda">Agenda</h4>
       <ol>
@@ -31,14 +36,14 @@
     </header>
     <main> 
       <hr>
-        <h4> Unfinished Business from Last Meeting</h4>
-          <div>
-            <p> Jessica is going to be the new team leader and
+        <h4 class="unfinished"> Unfinished Business from Last Meeting</h4>
+          <div class="wrapper">
+            <div class="box em"> Jessica is going to be the new team leader and
                 we will be meeting at <span style="color:blue;font-weight:bold">6pm on monday and fridays for an hour
                 to discuss our progress.</span>
-            </p>
+                </div>
             <p> As of right now we are intending on using <a href="https://reactjs.org/tutorial/tutorial.html"><i>React</i></a> 
-                as our main Framework so it is <em> vital </em> you 
+                as <p class="visible">our</p>main Framework so it is <em> vital </em> you 
                 learn about React and DOM in general. </p>
               <details> 
                 <summary> DOM </summary>
@@ -52,12 +57,13 @@
 
         <h4> New Business</h4>
             
-        <p> Spencer will be responsible for creating the data base and jessica will be in charge of 
-          creating the git hub actions pipeline. Anesh will be writing our test in junit 
-          <img src="./images/gitactions.png" alt="git actions" width="700" height="300">
+        <p > Spencer will be responsible for creating the data base and jessica will be in charge of 
+          creating the git hub actions pipeline. <p class="invisible">HI THERE</p>Anesh will be writing our test in junit 
+          <div class="static"> <img src="./images/gitactions.png" alt="git actions" width="700" height="300"> </div>
         </p>
         <h4> Questions/Concerns/Comments</h4>
-        <p>Will there be pizza at the next meeting ? <em>yes!</em> <br>
+        <div>
+        <p id="booty">Will there be pizza at the next meeting ? <em>yes!</em> <br>
            Jessica feels like we should probably meet over zoom so for now on <br>
            we will meet once a week on zoom. <br>
            Anesh brought up that some people have not been pullling their weight,
@@ -65,13 +71,14 @@
             submitting their weekly progress reports
            </i>
         </p>
+      </div>
         <hr>
-        <video width="800" height="800" controls autoplay>
+        <video class="solid" width="800" height="800" controls autoplay>
           <source src="kitty.mp4" type="video/mp4">
           <source src="kitty.ogg" type="video/ogg">
           Your browser does not support the video tag.
         </video>
-        <h4> AUDIO AUDIO AUDIO</h4>
+        <h4 class="audio"> AUDIO AUDIO AUDIO</h4>
         <p>
         <audio controls autoplay>
           <source src="gettysburgAdress.mp3" type="audio/mpeg">
@@ -80,7 +87,7 @@
         </audio>
         </p>
         <form> 
-          <fieldset>
+          <fieldset class="celeb">
             <label for="fname">First name:</label>
             <input type="text" id="fname" name="fname"><br><br>
             <label for="iluvye">i luv yeezy</label>
@@ -93,10 +100,10 @@
             <input type="radio" id="jaden" name="jaden"><br><br> 
             <label for="end">end of the world</label>
             <input type="date" id="end" name="end"> 
-          </fieldset>
-          <p><label for="thanks">U ROCK AT FILLING OUT</label></p>
+          </fieldset class="seperate">
+          <p id="thanks"><label for="thanks">U ROCK AT FILLING OUT</label></p>
           <textarea id="thanks" name="thanks" rows="4" cols="50">It was an honor to be in the 
-          presence of an amazing form submitter-er" </textarea> <br><br>
+          presence of an amazing form submitter-er</textarea> <br><br>
           <label for="browser">Choose a color from list:</label>
           <input list="browsers" name="browser" id="browser">
           <datalist id="browsers">
@@ -115,10 +122,38 @@
         </select>
         <button type="button">submit</button>
         </form>
+        <div class="flex-container">
+          <div>THANKS</div>
+          <div>FOR</div>
+          <div>VISITING</div>  
+        </div>
+        <div class="grid">
+          <div class="grid-box">this</div>
+          <div class="grid-box">is</div>
+          <div class="grid-box">a</div>  
+          <div class="grid-box">grid</div>
+          <div class="grid-box">(:</div>
+        </div>
+        <style>
+          .grid {
+          display: grid;
+           grid-template-columns: auto auto auto;
+          background-color: #5e194a;
+          padding: 20px;
+          }
+        .grid-box {
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 1px solid rgba(0, 0, 0, 0.8);
+          padding: 20px;
+          font-size: 30px;
+          text-align: center;
+}
+        </style>
     </main>
     <footer>
       <p>Sponsors: thomas powelll<br>
-      <a href="mailto:amarking@ucsd.edu">amarking@ucsd.edu</a></p>
+      <p>designed by: spencer marking</p>
+      <a title="email" href="mailto:amarking@ucsd.edu">amarking@ucsd.edu</a></p>
     </footer>
    </body>
 </html>
